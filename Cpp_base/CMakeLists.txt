@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 4.3)
-project(C___project)
+project(Cpp-repo)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(C___project main.cpp)
+add_executable(base_demo main.cpp)
+add_executable(data-types 01-data_types/main.cpp)
