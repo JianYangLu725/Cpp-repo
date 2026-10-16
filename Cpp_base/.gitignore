@@ -1,0 +1,15 @@
+# CLion 本机配置
+.idea/
+
+# CMake 构建目录
+cmake-build-*/
+build/
+
+# 编译产物
+*.o
+*.obj
+*.exe
+a.out
+
+# macOS 文件
+.DS_Store
