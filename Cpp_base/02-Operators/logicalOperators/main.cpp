@@ -1,6 +1,7 @@
 //
 // Created by jason on 2026/10/18.
 //
+#include <bitset>
 #include <iostream>
 using namespace std;
 
@@ -52,7 +53,7 @@ int main() {
     cout<<bitset<8>(y&0b1111)<<endl;
 
     //将末i位归零 (归零y的后3位)
-   int f = 0b111111111111111111111111111111000;
+    unsigned int f = ~0b111u; // 低3位为0，其余位为1
     cout<<bitset<8>(y&f)<<endl;
 
     //消除末位连续1
