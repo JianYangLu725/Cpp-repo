@@ -14,3 +14,9 @@ add_executable(ArithmeticOperators
 add_executable(logicalOperators
         02-Operators/logicalOperators/main.cpp
 )
+
+#程序控制流
+add_executable(switch_case 03-programFlow/main.cpp)
+
+#一维数组
+add_executable(1d-array 04-array/1DArray/main.cpp)
