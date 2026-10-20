@@ -26,9 +26,10 @@ int main() {
     cout << sizeof(long long*) << endl;
     cout << sizeof(double*) << endl;
     cout << sizeof(float*) << endl;//64位mac上，指针变量均占用8个字节
-
+    cout<<"-------------------------"<<endl;
     int* p=NULL;
-    cout<<*p<<endl;
+    //cout<<*p<<endl;
+    //cout<<&p<<endl;
     p = (int *)0x121412;
     cout << *p << endl;
 
