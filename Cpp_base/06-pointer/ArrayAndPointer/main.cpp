@@ -15,7 +15,7 @@ int main() {
 
     cout<<p+2<<endl;//p+i == &a[i]  or  a[i] == *(p+i)
     cout<<&a[2]<<endl;
-
+    cout<<p[0]<<endl;
 
     cout<<"------------------------"<<endl;
     double b[3]={1,2,3};

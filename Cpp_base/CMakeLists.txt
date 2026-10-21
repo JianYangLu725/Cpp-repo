@@ -21,6 +21,7 @@ add_executable(switch_case 03-programFlow/main.cpp)
 #一维数组
 add_executable(1d-array 04-array/1DArray/main.cpp
 
+
 )
 #二维数组
 add_executable(2d-array 04-array/2DArray/main.cpp
@@ -34,3 +35,5 @@ add_executable(ptr 06-pointer/main.cpp)
 add_executable(ConstAndPointer 06-pointer/ConstantsAndPointers/main.cpp)
 #数组与指针
 add_executable(ArrayAndPointer 06-pointer/ArrayAndPointer/main.cpp)
+#FunctionAndPointer
+add_executable(FuntionAndPointer  06-pointer/FunctionAndPointer/main.cpp)
