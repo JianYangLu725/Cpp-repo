@@ -37,3 +37,5 @@ add_executable(ConstAndPointer 06-pointer/ConstantsAndPointers/main.cpp)
 add_executable(ArrayAndPointer 06-pointer/ArrayAndPointer/main.cpp)
 #FunctionAndPointer
 add_executable(FuntionAndPointer  06-pointer/FunctionAndPointer/main.cpp)
+#结构体
+add_executable(struct 07-Struct/main.cpp)
