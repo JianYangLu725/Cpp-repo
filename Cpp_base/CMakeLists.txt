@@ -41,3 +41,7 @@ add_executable(FuntionAndPointer  06-pointer/FunctionAndPointer/main.cpp)
 add_executable(struct 07-Struct/main.cpp)
 #联合体
 add_executable(union 08-union/main.cpp)
+#RAM
+add_executable(RAM_Manager 09-RAM/main.cpp)
+#引用
+add_executable(quote 10-Quote/main.cpp)
