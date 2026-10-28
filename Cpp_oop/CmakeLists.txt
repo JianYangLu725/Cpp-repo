@@ -6,3 +6,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 #属性
 add_executable(property 01-property/main.cpp)
 add_executable(objectProperties 02-ObjectProperties/main.cpp)
+add_executable(static-member 02-ObjectProperties/staticMember/main.cpp)
