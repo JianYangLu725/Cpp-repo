@@ -9,3 +9,5 @@ add_executable(objectProperties 02-ObjectProperties/main.cpp)
 add_executable(static-member 02-ObjectProperties/staticMember/main.cpp)
 add_executable(keywords 02-ObjectProperties/keywords/main.cpp)
 add_executable(friend 02-ObjectProperties/friend/main.cpp)
+add_executable(add-operator
+        03-Operator/add/main.cpp)
