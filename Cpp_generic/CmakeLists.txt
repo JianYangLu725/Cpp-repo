@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.20)
+project(Cpp_oop LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+#属性
+add_executable(func-template 01-Func_template/main.cpp
+        01-Func_template/main.cpp)
