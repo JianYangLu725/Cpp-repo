@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(sequentialList 01-SequentialList/main.cpp)
 add_executable(LinkedList 02-LinkedList/main.cpp)
+add_executable(seqStack 03-Stack/v-SeqList/main.cpp)
