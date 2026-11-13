@@ -15,7 +15,12 @@ public:
     void push(int val) {
         q1.push(val);
     }
-
+    /*
+     1.不断弹出q1队首元素并压入q2，直到只剩一个元素
+     2.保存最后一个元素到res，用于返回
+     3.弹出最后一个元素：实现栈后进先出
+     4.不断弹出q2队首元素并压入q1，直到为空
+     */
     int pop() {
         while (q1.size()>1) {
             int val = q1.front();
@@ -31,7 +36,12 @@ public:
         }
         return res;
     }
-
+    /*
+     1.不断弹出q1队首元素并压入q2，直到只剩一个元素
+     2.保存最后一个元素到res，用于返回
+     3.弹出q1最后一个元素，并压入q2
+     4.不断弹出q2队首元素并压入q1，直到为空
+     */
     int peek() {
         while (q1.size()>1) {
             int val = q1.front();
