@@ -10,7 +10,10 @@ class Queue2Stk {
     queue<int> q1;
     queue<int> q2;
 public:
-    Queue2Stk(){}
+    Queue2Stk() {
+        cout<<"the more hard you study,the more knowledge you reap"<<endl;
+
+    }
 
     void push(int val) {
         q1.push(val);
