@@ -45,7 +45,8 @@ struct treeNode {
 
     //添加孩子节点
     void addChild(treeNode<T>* child) {
-       auto* link = new listNode<treeNode<T>*>(child);
+        auto* link = new listNode<treeNode<T>*>(child);
+        //link是一个分配好内存的链表节点的指针，该链表节点存储1.树节点的指针。2.指向下一个链表节点的指针
 
         if (childHead == nullptr) {
             childHead = link;
@@ -80,7 +81,7 @@ private:
             throw out_of_range("index out of range");
         }
 
-        return &nodes[index];
+        return &nodes[index];//返回数组索引位置的地址，类型是treeNode<T>*
     }
 
     //判断一个树节点是否当前树
@@ -108,7 +109,7 @@ private:
             cout<<" ";
         }
 
-        cout<<node->data;
+        cout<<node->data<<endl;;
         //获取当前树节点的孩子节点链表头节点
         auto* p = node->childHead;
 
@@ -181,7 +182,6 @@ private:
     }
 
     // 递归计算树的高度
-    // =================================================
     // 约定：
     // 空树高度 = -1
     // 叶子结点高度 = 0
@@ -214,7 +214,6 @@ private:
     }
 
     //递归计算树的度
-    // =================================================
     // 树的度 = 所有结点的度中的最大值
     // 结点的度 = 该结点的直接孩子数量
     int degreeFrom(const treeNode<T>* node) const {
